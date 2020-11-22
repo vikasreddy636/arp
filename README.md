@@ -1,6 +1,6 @@
 #                Assignment-1        (5061211,Ginne vikas reddy)
 # Simplest program composd by two processes using pipe
-In this program the user gives two numbers as input and the program is the increment of the sum of two numbers, which are generated  by random letters which i have used as signals in this assignment.
+In this program the user inputs two numbers A and B, random signal is sent through the pipe, every time when a signal is sent it computes the sum  of A and B and increment with respect to last time and the out put is stored in a log file
 # installing and running
 Machine requires a python 3 installation and the required libraries are pandas,time,datetime,random and string.
 script to install required libraries
