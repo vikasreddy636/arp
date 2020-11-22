@@ -15,7 +15,7 @@ a = time.monotonic()
 while(1):
     b = time.monotonic()
     ct = str(datetime.datetime.now())
-    #ct = ct[0:19]
+    ct = ct[0:19]
     ch = random.choice(string.ascii_letters)
     if((ch>='a' and ch<= 'y') or (ch>='A' and ch<='Y')):
         sums+=1
